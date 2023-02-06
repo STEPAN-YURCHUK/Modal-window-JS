@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>modal window</title>
+</head>
+<body>
+    <h1>modal window</h1>
+
+    <input id="age" value="30">
+
+
+
+    <button class="more">Узнать больше</button>
+
+    
+
+    <div class="overlay fade">
+        <div class="popup">
+           <div class="popup-close">&times;
+           </div>
+           <div class="popup-title">Модальное окно</div>
+               <div class="popup-form">	
+                   <form action="#" class="main-form">
+                           <label class="popup-form__label" for="phone">
+                           Введите ваш номер телефона:
+                           </label>
+                           <input class="popup-form__input" name="phone" type="tel" required placeholder="инпут">
+                           <button class="button popup-form__btn">кнопка</button>
+                   </form>
+               </div>
+        </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
